@@ -27,11 +27,9 @@ fun App() {
     }
 }
 
-class SplashScreenNav() : Screen {
+class SplashScreenNav : Screen {
     @Composable
     override fun Content() {
-        //MainScreen()
         SplashScreenUI()
-        //LoginScreen()
     }
 }
